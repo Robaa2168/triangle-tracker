@@ -1,1 +1,175 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
 
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta charset="utf-8">
+
+  <title>Triangle Tracker</title <link href="https://fonts.googleapis.com/css?family=Montserrat:500,700&display=swap&subset=latin-ext" rel="stylesheet">
+  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <link href="css/style.css" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <!-- Google Fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+  <!-- Bootstrap core CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+
+</head>
+
+<body class="layout-fixed layout-navbar-fixed layout-footer-fixed ">
+  <div class=" wrapper mb-2 ">
+    <!--Navbar -->
+    <nav class=" mb-1 navbar navbar-expand-lg navbar-dark lighten-1 ">
+      <a class=" navbar-brand" href="#">Triangle.tr</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-555" aria-controls="navbarSupportedContent-555" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent-555">
+        <ul class="navbar-nav mr-auto clearfix">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+        </ul>
+        <ul class="navbar-nav ml-auto nav-flex-icons">
+          <li class="nav-item avatar">
+            <a class="nav-link p-0" href="#">
+              <img src="images/Moringa-Oleifera_3x2.jpg" class="rounded-circle z-depth-0" alt="avatar image" height="35">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="icon-bar">
+      <a class="btn-floating btn-lg btn-fb" type="button" role="button"><i class="fab fa-facebook-f"></i></a>
+      <!--Twitter-->
+      <a href="#" class="twitter"><i class="ion ion-thumbsup">21</i></a>
+      <a href="#" class="google"><i class="ion ion-chatbox-working"></i></a>
+      <a href="#" class="linkedin"><i class="ion ion-android-share-alt"></i></a>
+      <a href="#" class="youtube"><i class="ion ion-android-download"></i></a>
+    </div>
+
+    <div class="container-fluid mt-3">
+
+      <!-- Grid row -->
+      <div class="row">
+
+        <!-- Grid column -->
+        <div class="col-md-8 mb-4">
+
+          <!--Card-->
+          <div class="card default-color-dark  z-depth-6">
+
+            <!--Card image-->
+            <div class="view">
+              <img src="images/xJV4YJJS4aIMG_20191218_165856.jpg" height="300" class="card-img-top" alt="photo">
+              <a href="#">
+                <div class="mask rgba-white-slight"></div>
+              </a>
+            </div>
+
+            <!--Card content-->
+            <div class="card-body text-center">
+              <!--Title-->
+              <h4 class="card-title white-text">Traingle Tracker</h4>
+              <!--Text-->
+              <p class="card-text white-text">Are you tired of wondering what type of triangle could it be form with certain values?This app if for you.This is A web page that resolves the type of a triangle when a user keys in the the values of the
+                three sides(Equilateral, Scalene and Isosceles.</p>
+              <em>
+                <h4 class="text-danger" id="answer"></h4>
+              </em>
+              <a class="btn btn-white btn-rounded blue-text font-weight-bold ml-lg-0 wow fadeIn waves-effect waves-light" data-wow-delay="0.3s" style="visibility: visible; animation-name: fadeIn; animation-delay: 0.3s;">Email Result</a>
+            </div>
+
+          </div>
+          <!--/.Card-->
+
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 mb-4 z-depth-5">
+
+          <!-- Material form contact -->
+          <div class="card mask rgba-white-slight">
+
+            <h5 class="card-header info-color white-text text-center py-4">
+              <strong>Try Now</strong>
+            </h5>
+
+            <!--Card content-->
+            <div class="card-body clearfix  px-lg-5 pt-0">
+
+              <!-- Form -->
+              <form class="" style="color: #757575;" action="#!">
+                <div class="text-sm mt-2">
+                  <ul class="list-unstyled li-space-lg white">
+                    <li class="media">
+                      <i class="fas fa-square"></i>
+                      <div class="media-body">Fill the form below with three integers that you think would produce a triangle</div>
+                    </li>
+                    <li class="media">
+                      <i class="fas fa-square"></i>
+                      <div class="media-body">All fields should be filled</div>
+                    </li>
+                    <li class="media">
+                      <i class="fas fa-square"></i>
+                      <div class="media-body">Click check to view a result</div>
+                    </li>
+                  </ul>
+                </div>
+
+                <!-- Name -->
+                <div class="md-form mt-3">
+                  <input type="number" name="number1" id="side1" class="form-control" placeholder="side 1" required>
+
+                </div>
+
+
+                <div class="md-form">
+                  <input type="number" name="number2" id="side2" class="form-control" placeholder="side 2" required>
+
+                </div>
+                <div class="md-form">
+                  <input type="number" name="number3" id="side3" class="form-control" placeholder="Side 3" required>
+
+                </div>
+                <br>
+                <input type="button" class="btn btn-white btn-rounded blue-text font-weight-bold ml-lg-0 wow fadeIn waves-effect waves-light z-depth-3 text-center" data-wow-delay="0.3s"
+                  style="visibility: visible; animation-name: fadeIn; animation-delay: 0.3s;" value="Check" onclick="result()">
+              </form>
+              <!-- Form -->
+
+            </div>
+
+          </div>
+          <!-- Material form contact -->
+        </div>
+        <!-- Grid column -->
+      </div>
+
+
+
+      <footer class="page-footer fixed-bottom font-small special-color-dark ">
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">0798530725
+          <a href="">(Robertlagat38@gmail.com)</a>
+        </div>
+        <!-- Copyright -->
+
+      </footer>
+      <!-- Footer -->
+
+
+
+      <script type="text/javascript" src="js/script.js">
+
+      </script>
+</body>
+
+</html>

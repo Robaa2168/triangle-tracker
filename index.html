@@ -14,7 +14,9 @@
   <!-- Bootstrap core CSS -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+
 </head>
+
 <body class="layout-fixed layout-navbar-fixed layout-footer-fixed ">
   <div class=" wrapper mb-2 ">
     <!--Navbar -->
@@ -78,7 +80,8 @@
               <em>
                 <h4 class="text-danger" id="answer"></h4>
               </em>
-              <a class="btn btn-white btn-rounded blue-text font-weight-bold ml-lg-0 wow fadeIn waves-effect waves-light" data-wow-delay="0.3s" style="visibility: visible; animation-name: fadeIn; animation-delay: 0.3s;">Email Result</a>
+              <input type="button" class="btn btn-white btn-rounded blue-text font-weight-bold ml-lg-0 wow fadeIn waves-effect waves-light" data-wow-delay="0.3s" style="visibility: visible; animation-name: fadeIn; animation-delay: 0.3s;"
+                value="Email Result" onclick="reset()">
             </div>
 
           </div>
@@ -118,53 +121,39 @@
                     </li>
                   </ul>
                 </div>
-
-                <!-- Name -->
+         <!-- Name -->
                 <div class="md-form mt-3">
                   <input type="number" name="number1" id="side1" class="form-control" placeholder="side 1" required>
-
                 </div>
-
-
                 <div class="md-form">
                   <input type="number" name="number2" id="side2" class="form-control" placeholder="side 2" required>
 
                 </div>
                 <div class="md-form">
                   <input type="number" name="number3" id="side3" class="form-control" placeholder="Side 3" required>
-
                 </div>
                 <br>
                 <input type="button" class="btn btn-white btn-rounded blue-text font-weight-bold ml-lg-0 wow fadeIn waves-effect waves-light z-depth-3 text-center" data-wow-delay="0.3s"
                   style="visibility: visible; animation-name: fadeIn; animation-delay: 0.3s;" value="Check" onclick="result()">
+                <input type="button" class="btn btn-white z-depth-3 btn-rounded blue-text font-weight-bold ml-lg-0 wow fadeIn waves-effect waves-light" data-wow-delay="0.3s" style="visibility: visible; animation-name: fadeIn; animation-delay: 0.3s;"
+                  value="Refresh" onclick="reset()">
               </form>
               <!-- Form -->
-
             </div>
-
           </div>
           <!-- Material form contact -->
         </div>
         <!-- Grid column -->
       </div>
-
-
-
       <footer class="page-footer fixed-bottom font-small special-color-dark ">
-
-        <!-- Copyright -->
-        <div class="footer-copyright text-center py-3">0798530725
+         <div class="footer-copyright text-center py-3">0798530725
           <a href="">(Robertlagat38@gmail.com)</a>
         </div>
         <!-- Copyright -->
-
       </footer>
       <!-- Footer -->
-
-
-
-      <script type="text/javascript" src="js/script.js">
-
+    <script type="text/javascript" src="js/script.js">
       </script>
 </body>
+
 </html>

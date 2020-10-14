@@ -1,9 +1,9 @@
 # Triangle Tracker
 ![Ping-Pong](https://s3-ap-southeast-1.amazonaws.com/learnhive/lcards/Types-of-Triangles-521dd275368b9.png)
 
-Make a web page that allows the user to input the lengths of the sides of a triangle, and returns whether these sides form an equilateral, isosceles, or scalene triangle or if the sides cannot make a triangle at all.
+This is a web page that allows the user to input the lengths of the sides of a triangle, and returns whether these sides form an equilateral, isosceles, or scalene triangle or if the sides cannot make a triangle at all.
 ## Live DEMO
-You can find the working example here: [ https://robaa2168.github.io/Delani-Studio/ ]
+You can find the working example here: [ https://robaa2168.github.io/triangle-tracker/]
 
 ## Installation
 All the external dependencies has been included using CDN. You only need to upload the HTML and CSS files to your host.
